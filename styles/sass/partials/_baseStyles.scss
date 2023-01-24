@@ -24,3 +24,29 @@ button, .button {
         background-color: transparent;
     }
 }
+
+nav a {
+    &:hover {
+        color: $solidWhite;
+    }
+    &:focus {
+        color: $solidWhite;
+    }
+}
+
+.itemsLink i {
+    background-color: $lightBlueGrey;
+    padding: 20px;
+    border-radius: 50%;
+    border: 2px solid $lightBlueGrey;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+        background-color: transparent;
+    }
+    &:focus {
+        background-color: transparent;
+    }
+}

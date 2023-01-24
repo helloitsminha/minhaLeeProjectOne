@@ -325,3 +325,46 @@ button:hover, .button:hover {
 button:focus, .button:focus {
   background-color: transparent;
 }
+
+nav a:hover {
+  color: #ffffff;
+}
+nav a:focus {
+  color: #ffffff;
+}
+
+.itemsLink i {
+  background-color: #b9dde7;
+  padding: 20px;
+  border-radius: 50%;
+  border: 2px solid #b9dde7;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.itemsLink i:hover {
+  background-color: transparent;
+}
+.itemsLink i:focus {
+  background-color: transparent;
+}
+
+.navBar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background-color: #b9dde7;
+  padding: 36px;
+}
+.navBar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.navBar li {
+  padding: 0 36px;
+}

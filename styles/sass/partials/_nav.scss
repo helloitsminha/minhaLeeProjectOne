@@ -1,0 +1,16 @@
+.navBar {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background-color: $lightBlueGrey;
+    padding: 36px;
+
+    ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    li {
+        padding: 0 36px;
+    }
+}
