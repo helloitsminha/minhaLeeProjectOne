@@ -1,0 +1,33 @@
+header {
+    background-color: $lightBlueGrey;
+    padding-top: 40px;
+
+    .wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .headerImgContainer {
+        width: 40%;
+
+        img {
+            max-width: 100%;
+            box-shadow: 15px 15px $solidWhite;
+        }
+    }
+
+    .headerContent {
+        width: 60%;
+        padding-left: 90px;
+
+        img {
+            z-index: 10px;
+            position: absolute;
+            padding-left: 370px;
+            padding-bottom: 100px;
+        }
+    }
+}
+
