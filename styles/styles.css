@@ -1161,6 +1161,9 @@ footer p {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .contact main .wrapper .sideBar section .icons a {
+    padding: 20px;
+  }
   .contact main .wrapper .sideBar section .content {
     text-align: center;
   }
