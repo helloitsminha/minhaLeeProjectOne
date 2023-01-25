@@ -1197,6 +1197,10 @@ footer p {
   .navBar ul li h1 {
     font-size: 3.5rem;
   }
+  .blog .navBar,
+.contact .navBar {
+    padding-bottom: 20px;
+  }
   .main header .wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;

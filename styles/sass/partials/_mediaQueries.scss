@@ -206,6 +206,13 @@
         }
     }
 
+    .blog,
+    .contact {
+        .navBar {
+            padding-bottom: 20px;
+        }
+    }
+
     // resize & reorient header
     .main header .wrapper {
         flex-direction: column-reverse;
