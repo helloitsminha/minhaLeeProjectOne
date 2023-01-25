@@ -256,6 +256,7 @@ h2 {
 
 .main h2 {
   font-size: 13.5rem;
+  line-height: 14rem;
 }
 
 h3 {
@@ -776,14 +777,6 @@ footer p {
   border: none;
   padding: 25px;
 }
-.contactForm .userInfo input .name,
-.postComment .userInfo input .name {
-  margin-right: 2px;
-}
-.contactForm .userInfo input .email,
-.postComment .userInfo input .email {
-  margin-left: 2px;
-}
 .contactForm textarea,
 .postComment textarea {
   width: 100%;
@@ -1221,6 +1214,9 @@ footer p {
     width: 100%;
     padding: 60px 0 0 0;
   }
+  .main header .wrapper .content h2 {
+    line-height: 12rem;
+  }
   .main header .wrapper .content img {
     padding-bottom: 70px;
     padding-left: 320px;
@@ -1293,5 +1289,54 @@ footer p {
         -ms-flex-align: center;
             align-items: center;
     text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .wrapper {
+    max-width: 350px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .main header .wrapper .content h2 {
+    font-size: 7.5rem;
+    line-height: 8.2rem;
+  }
+  .main header .wrapper .content img {
+    height: 150px;
+    padding-left: 240px;
+    padding-bottom: 60px;
+  }
+  .categoryQuad .items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .categoryQuad .items .icon {
+    width: 100%;
+  }
+  .postComment .userInfo {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .postComment .userInfo input {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .contactForm .userInfo {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contactForm .userInfo input {
+    width: 100%;
+    margin: 5px 0;
   }
 }
