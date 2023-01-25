@@ -429,7 +429,7 @@ header .content img {
       -ms-flex-align: center;
           align-items: center;
 }
-.whosHarper .placeholder {
+.whosHarper .blank {
   width: 40%;
 }
 .whosHarper .content {
@@ -531,10 +531,75 @@ header .content img {
 }
 .harpersTravels .imgContainer img {
   width: 100%;
-  -webkit-box-shadow: 15px 15px #68b0c1, -610px 15px #68b0c1;
-          box-shadow: 15px 15px #68b0c1, -610px 15px #68b0c1;
+  -webkit-box-shadow: 15px 15px #68b0c1, -100px 15px #68b0c1, -300px 15px #68b0c1, -600px 15px #68b0c1, -900px 15px #68b0c1;
+          box-shadow: 15px 15px #68b0c1, -100px 15px #68b0c1, -300px 15px #68b0c1, -600px 15px #68b0c1, -900px 15px #68b0c1;
 }
 .harpersTravels .content {
   width: 50%;
-  padding: 0 0 7px 80px;
+  padding: 0 0 0 80px;
+  margin-bottom: -9.55px;
+}
+.harpersTravels .content .contentContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.favouriteThings {
+  background-color: transparent;
+}
+.favouriteThings .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.favouriteThings .imgContainer {
+  width: 50%;
+}
+.favouriteThings .imgContainer img {
+  width: 100%;
+  -webkit-box-shadow: 15px 15px #b9dde7, 100px 15px #b9dde7, 300px 15px #b9dde7, 600px 15px #b9dde7, 900px 15px #b9dde7;
+          box-shadow: 15px 15px #b9dde7, 100px 15px #b9dde7, 300px 15px #b9dde7, 600px 15px #b9dde7, 900px 15px #b9dde7;
+}
+.favouriteThings .content {
+  width: 50%;
+  padding: 0 80px 0 0;
+}
+.favouriteThings .content .contentContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.favouriteThings .content .contentContainer .contentTextContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
