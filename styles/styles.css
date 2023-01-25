@@ -236,7 +236,7 @@ body {
   color: #171717;
 }
 
-h1, h2, h3, h4, h5, nav, button {
+h1, h2, h3, h4, h5, nav, button .button {
   font-family: "Oswald", sans-serif;
   font-weight: bold;
   color: #171717;
@@ -349,6 +349,7 @@ form textarea {
 
 button, .button {
   color: #171717;
+  font-family: "Oswald", sans-serif;
   background-color: #f38d8d;
   border: 2px solid #f38d8d;
   padding: 10px 30px;
