@@ -1,0 +1,55 @@
+.contact header {
+    background-image: url(../assets/contact-image-1.jpg);
+    background-size: cover;
+    padding-top: 300px;
+
+    h2 {
+        position: relative;
+        bottom: 50px;
+    }
+}
+
+
+.contact main {
+    background-color: $whiteShade;
+    padding: 100px 0 80px;
+    margin-bottom: -20px;
+}
+
+.contact main .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+    .sideBar {
+        width: 32%;
+
+        section {
+            background-color: $solidWhite;
+            display: flex;
+            flex-direction: column;
+            padding: 40px;
+            justify-content: center;
+
+            .icons {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                }
+            }
+
+            .content p {
+                margin: 25px 0 0;
+
+                span {
+                    display: block;
+                }
+            }
+            
+        }
+    }
+
+    .contactForm {
+        width: 65%;
+    }
