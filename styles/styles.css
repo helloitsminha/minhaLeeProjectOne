@@ -1351,19 +1351,84 @@ footer p {
     width: 100%;
     margin: 5px 0;
   }
-  .blogContent .commentOne {
+  .blog main .wrapper .blogContent .commentOne {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  .blogContent .commentOne .imgContainer {
+  .blog main .wrapper .blogContent .commentOne .imgContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     width: 100%;
   }
-  .blogContent .commentOne .imgContainer img {
+  .blog main .wrapper .blogContent .commentOne .imgContainer img {
+    max-height: 100%;
+    padding: 0 auto;
+  }
+  .blog main .wrapper .blogContent .commentOne .content {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .blog main .wrapper .blogContent .commentOne .content p span {
+    margin-top: 20px;
+  }
+  .blog main .wrapper .blogContent .commentTwo {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .blog main .wrapper .blogContent .commentTwo .imgContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+  .blog main .wrapper .blogContent .commentTwo .imgContainer img {
+    max-height: 100%;
+    padding: 0 auto;
+  }
+  .blog main .wrapper .blogContent .commentTwo .content {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .blog main .wrapper .blogContent .commentTwo .content p span {
+    margin-top: 20px;
+  }
+  .blog main .wrapper .sideBar .aboutHarper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .blog main .wrapper .sideBar .aboutHarper .imgContainer {
+    width: 100;
+  }
+  .blog main .wrapper .sideBar .aboutHarper .imgContainer img {
     max-height: 100%;
   }
-  .blogContent .commentOne .content {
+  .blog main .wrapper .sideBar .aboutHarper .content {
     width: 100%;
+    text-align: center;
+  }
+  .blog main .wrapper .sideBar .aboutHarper .content .contentContainer {
+    margin: 30px 0 0 0;
   }
 }
