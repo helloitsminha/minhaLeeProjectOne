@@ -1,0 +1,14 @@
+.blog header {
+    background-image: url(../assets/blog-image-1.jpg);
+    background-size: cover;
+    padding-top: 300px;
+
+    h2 {
+        position: relative;
+        top: 35px;
+    }
+}
+
+.blog main {
+    background-color: $whiteShade;
+}

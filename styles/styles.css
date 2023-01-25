@@ -236,7 +236,7 @@ body {
   color: #171717;
 }
 
-h1, h2, h3, h4, nav, button {
+h1, h2, h3, h4, h5, nav, button {
   font-family: "Oswald", sans-serif;
   font-weight: bold;
   color: #171717;
@@ -254,7 +254,7 @@ h2 {
   letter-spacing: 1px;
 }
 
-header h2 {
+.main h2 {
   font-size: 13.5rem;
 }
 
@@ -531,8 +531,8 @@ header .content img {
 }
 .harpersTravels .imgContainer img {
   width: 100%;
-  -webkit-box-shadow: 15px 15px #68b0c1, -100px 15px #68b0c1, -300px 15px #68b0c1, -600px 15px #68b0c1, -900px 15px #68b0c1;
-          box-shadow: 15px 15px #68b0c1, -100px 15px #68b0c1, -300px 15px #68b0c1, -600px 15px #68b0c1, -900px 15px #68b0c1;
+  -webkit-box-shadow: 15px 15px #68b0c1, -100px 15px #68b0c1, -300px 15px #68b0c1, -600px 15px #68b0c1, -900px 15px #68b0c1, -1200px 15px #68b0c1;
+          box-shadow: 15px 15px #68b0c1, -100px 15px #68b0c1, -300px 15px #68b0c1, -600px 15px #68b0c1, -900px 15px #68b0c1, -1200px 15px #68b0c1;
 }
 .harpersTravels .content {
   width: 50%;
@@ -573,8 +573,8 @@ header .content img {
 }
 .favouriteThings .imgContainer img {
   width: 100%;
-  -webkit-box-shadow: 15px 15px #b9dde7, 100px 15px #b9dde7, 300px 15px #b9dde7, 600px 15px #b9dde7, 900px 15px #b9dde7;
-          box-shadow: 15px 15px #b9dde7, 100px 15px #b9dde7, 300px 15px #b9dde7, 600px 15px #b9dde7, 900px 15px #b9dde7;
+  -webkit-box-shadow: 15px 15px #b9dde7, 100px 15px #b9dde7, 300px 15px #b9dde7, 600px 15px #b9dde7, 900px 15px #b9dde7, 1200px 15px #b9dde7;
+          box-shadow: 15px 15px #b9dde7, 100px 15px #b9dde7, 300px 15px #b9dde7, 600px 15px #b9dde7, 900px 15px #b9dde7, 1200px 15px #b9dde7;
 }
 .favouriteThings .content {
   width: 50%;
@@ -681,4 +681,18 @@ footer {
 }
 footer p {
   padding: 5px 0;
+}
+
+.blog header {
+  background-image: url(../assets/blog-image-1.jpg);
+  background-size: cover;
+  padding-top: 300px;
+}
+.blog header h2 {
+  position: relative;
+  top: 35px;
+}
+
+.blog main {
+  background-color: #f6f6f6;
 }

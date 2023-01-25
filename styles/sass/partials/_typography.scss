@@ -10,7 +10,7 @@ body {
     color: $black;
 }
 
-h1, h2, h3, h4, nav, button {
+h1, h2, h3, h4, h5, nav, button {
     font-family: $headingFont;
     font-weight: bold;
     color: $black;
@@ -28,7 +28,7 @@ h2 {
     letter-spacing: 1px;
 }
 
-header h2 {
+.main h2 {
     font-size: 13.5rem;
 }
 

@@ -5,8 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Harper</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/449ad7fe01.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
-<body>
+
+<body class="blog">
     <!-- nav -->
     <nav class="navBar">
         <div class="wrapper">
@@ -14,7 +20,9 @@
                 <li><a href="./index.html">HOME</a></li>
                 <li><a href="#">ABOUT</a></li>
                 <li>
-                    <h1>HARPER</h1>
+                    <a href="./index.html">
+                        <h1>HARPER</h1>
+                    </a>
                 </li>
                 <li><a href="#">BLOG</a></li>
                 <li><a href="#">CONTACT</a></li>
@@ -26,8 +34,64 @@
     <header>
         <div class="wrapper">
             <h2>BLOG</h2>
-        </div>
+        </div><!-- end of .wrapper -->
     </header>
+
+    <!-- main -->
+    <main>
+        <div class="wrapper">
+            <div class="sideBar">
+                <!-- about harper -->
+                <section class="aboutHarper">
+                    <div class="imgContainer">
+                        <img src="./assets/blog-image-2.jpg" alt="A person with mid-length brown hair is lying on the ground with one arm relaxed by their head and the other out in front of them. They have their makeup done and they are wearing a furry pink coat.">
+                    </div><!-- end of .imgContainer -->
+                    <div class="content">
+                        <div class="contentContainer">
+                            <h5>ABOUT HARPER</h5>
+                            <p> Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum. Find out more.</p>
+                        </div><!-- end of .contentContainer -->
+                    </div><!-- end of .content -->
+                </section><!-- end of .aboutHarper -->
+
+                <!-- recent posts -->
+                <section class="recentPosts">
+                    <h5>RECENT POSTS</h5>
+                    <ul>
+                        <li>Donec facilisis tortor ut</li>
+                        <li>Augue lacinia at viverra</li>
+                        <li>Semper sed sapien metus</li>
+                        <li>Scelerisque nex paretra id</li>
+                    </ul>
+                </section>
+            </div>
+
+            <!-- blog content -->
+            <div class="blogContent">
+                <!-- my favourite travel destinations article -->
+                <article class="favouriteDestinations">
+                    <h4>MY FAVOURITE TRAVEL DESTINATIONS</h4>
+                    <p>Monday October 8th, 2018 by Harper 
+                    <span>Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim,pulvinar lobortis nibh lacinia at. Vestibulum nec erat ut mi sollicitudin porttitor id sit amet risus. nam tempus vel odio vitae aliquam. </span>
+                    <span>In imperdiet eros id lacus vestibulum vestibulum. Suspendisse fermentum sem sagittis ante venenatis egestas quis vel justo. Maecenas semper suscipit nunc, sed aliquam sapien convallis eu. Nulla ut turpis in diam dapibus consequat.Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacu. </span>
+                    <span>Lorem ipsum dolor sit amet, consecteteur adipiscing elit. Ut pretium pretium tempor. Ut eget imperdiet neque. In volutpat ante semper diam molestie, et aliquam erat laoreet. Sed sit amet arcu aliquet, molestie justo at, auctor nunc. Phasellus ligula ipsum, volutpat eget semper id, viverra eget nibh. Suspendisse luctus mattis cursus. Nam consectetur ante at nisl hendrerit gravida. Donec vehicula rhoncus mattis. Mauris dignissim semper mattis. Fusce porttitor a mi at suscipit. Praesent fascilisis dolor sapien, vel sodales augue mollis ut. Mauris venenatis magna eu tortor posuere luctus. Aenean tincidunt turpis sed dui aliquam vehicula. Praesent nec elit nondolor consectetur tincidunt sed in felis. Donec elementum, lacus at mattis tincidunt, eros magna faucibus sem, in condimentum est audue tristique risus. </span>
+                    <span>Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at. Vestibulum nec erat ut mi sollicitudin porttitor id sit amet risus. Nam tempus vel odio vitae aliquam. </span>
+                    <span>In imperdiet eros id lacus vestibulum vestibulum. Suspendisse fermentum sem sagittis ante venenatis egestas quis vel justo. Maecenas seper suscipit nunc, sed aliquam sapien convallis eu. Nulla ut turpis in diam dapibus consequat.Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacu. </span>
+                    <span>Lorem ipsum dolor sit amet, consecteteur adipiscing elit. Ut pretium tempor. ut eget imperdiet neque. In volutpat ante semper diam molestie, et aliquam erat laoreet. Sed sit amet arcu aliquet, molestie justo at, auctor nuc. Pasellus ligula ipsum, volutpat eget semper id, viverra eget nibh. Suspendisse luctus mattis cursus. Nam consectetur ante at nisl hendrerit gravida. Donec vehicula rhoncus mattis. Mauris dignissim semper mattis. Fusce porttitor a mi at suscipit. Praesent fascilsis dolor sapien, vel sodales augue mollis ut. Mauris venenatis magna eu tortor posuere luctus. Aenean tincidunt turpis sed dui aliquam vehicula. Praesent nec elit non dolor consectetur tincidunt sed in felis. Donec elementum, lacus at mattis tincidunt, eros magna faucibus sem, in condimentum est augue tristique risus. </span> </p>
+                </article>
+
+                <!-- comments section -->
+                <div class="comment">
+                    <div class="imgContainer">
+                        <img src="./assets/blog-image-3.jpg" alt="">
+                    </div><!-- end of .imgContainer -->
+                    <div class="content">
+                        <p>Tuesday October 9th, 2018 by Maggie <span>Fusce vehicula dolor arcu, sit amet balndit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus, eu alique arcu.</span></p>
+                    </div><!-- end of .content -->
+                </div><!-- end of .comment -->
+            </div><!-- end of .blogContent -->
+        </div><!-- end of .wrapper -->
+    </main>
 
     <!-- wrapper flexbox -->
         <!-- side bar flexbox -->
@@ -47,8 +111,8 @@
             <!-- post comment form -->
     
     <!-- footer -->
-    <footer>
+    <!-- <footer>
         <p>Copyright © 2018 HackerYou</p>
-    </footer>
+    </footer> -->
 </body>
 </html>
