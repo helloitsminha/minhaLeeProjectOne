@@ -1318,7 +1318,7 @@ footer p {
     font-size: 7rem;
     line-height: 7.5rem;
   }
-  .categoryQuad .items {
+  reorient category quad .categoryQuad .items {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1328,7 +1328,7 @@ footer p {
             align-items: center;
     text-align: center;
   }
-  .categoryQuad .items .icon {
+  reorient category quad .categoryQuad .items .icon {
     width: 100%;
   }
   .postComment .userInfo {
@@ -1350,5 +1350,20 @@ footer p {
   .contactForm .userInfo input {
     width: 100%;
     margin: 5px 0;
+  }
+  .blogContent .commentOne {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .blogContent .commentOne .imgContainer {
+    width: 100%;
+  }
+  .blogContent .commentOne .imgContainer img {
+    max-height: 100%;
+  }
+  .blogContent .commentOne .content {
+    width: 100%;
   }
 }
