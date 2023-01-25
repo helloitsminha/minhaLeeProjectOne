@@ -1,6 +1,7 @@
 header {
     background-color: $lightBlueGrey;
     padding-top: 40px;
+    margin-bottom: -90px;
 
     .wrapper {
         display: flex;
@@ -9,7 +10,7 @@ header {
         flex-wrap: wrap;
     }
 
-    .headerImgContainer {
+    .imgContainer {
         width: 40%;
 
         img {
@@ -18,9 +19,10 @@ header {
         }
     }
 
-    .headerContent {
+    .content {
         width: 60%;
         padding-left: 90px;
+        margin-top: -90px;
 
         img {
             z-index: 10px;

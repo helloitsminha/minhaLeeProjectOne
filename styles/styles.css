@@ -376,6 +376,7 @@ nav a:focus {
 header {
   background-color: #b9dde7;
   padding-top: 40px;
+  margin-bottom: -90px;
 }
 header .wrapper {
   display: -webkit-box;
@@ -391,21 +392,64 @@ header .wrapper {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-header .headerImgContainer {
+header .imgContainer {
   width: 40%;
 }
-header .headerImgContainer img {
+header .imgContainer img {
   max-width: 100%;
   -webkit-box-shadow: 15px 15px #ffffff;
           box-shadow: 15px 15px #ffffff;
 }
-header .headerContent {
+header .content {
   width: 60%;
   padding-left: 90px;
+  margin-top: -90px;
 }
-header .headerContent img {
+header .content img {
   z-index: 10px;
   position: absolute;
   padding-left: 370px;
   padding-bottom: 100px;
+}
+
+.whosHarper {
+  background-color: #f6f6f6;
+  padding: 170px 0;
+}
+.whosHarper .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.whosHarper .placeholder {
+  width: 40%;
+}
+.whosHarper .content {
+  width: 60%;
+  padding-left: 90px;
+}
+.whosHarper .content .contentContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.whosHarper .content .contentContainer p {
+  margin: 36px 0;
 }
