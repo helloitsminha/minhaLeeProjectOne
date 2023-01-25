@@ -465,6 +465,7 @@ header .content img {
 .categories {
   background-color: #f6f6f6;
   padding: 120px 0 100px 0;
+  margin-bottom: 100px;
 }
 
 .categoryQuad {
@@ -503,4 +504,37 @@ header .content img {
 }
 .categoryQuad .items .content p {
   padding-top: 10px;
+}
+
+.harpersTravels {
+  background-color: transparent;
+  margin-top: -140px;
+  margin-bottom: 80px;
+}
+.harpersTravels .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.harpersTravels .imgContainer {
+  width: 50%;
+}
+.harpersTravels .imgContainer img {
+  width: 100%;
+  -webkit-box-shadow: 15px 15px #68b0c1, -610px 15px #68b0c1;
+          box-shadow: 15px 15px #68b0c1, -610px 15px #68b0c1;
+}
+.harpersTravels .content {
+  width: 50%;
+  padding: 0 0 7px 80px;
 }

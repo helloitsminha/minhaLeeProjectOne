@@ -45,6 +45,7 @@
 .categories {
     background-color: $whiteShade;
     padding: 120px 0 100px 0;
+    margin-bottom: 100px;
 }
 
 .categoryQuad {
@@ -75,3 +76,37 @@
         }
     }
 }
+
+// harper's travels styles
+
+.harpersTravels {
+    background-color: transparent;
+    margin-top: -140px;
+    margin-bottom: 80px;
+
+    .wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .imgContainer {
+        width: 50%;
+        
+
+        img {
+            width: 100%;
+            box-shadow: 15px 15px $greyBlue, -610px 15px $greyBlue;
+        }
+        // !!!!BE SURE TO MEDIA QUERY THIS LATER FOR SMALLER SCREENS!!!!
+    }
+
+    .content {
+        width: 50%;
+        padding: 0 0 7px 80px;
+    }
+
+}
+
+// favourite things styles
