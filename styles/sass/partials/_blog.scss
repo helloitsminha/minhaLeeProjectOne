@@ -29,7 +29,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            padding: 45px;
+            padding: 40px;
 
             .contentContainer {
                 margin-top: 20px;
@@ -45,8 +45,8 @@
             background-color: $solidWhite;
             display: flex;
             flex-direction: column;
-            margin-top: 30px;
-            padding: 45px;
+            margin-top: 20px;
+            padding: 40px;
 
             ul {
                 list-style-type: disc;
@@ -59,6 +59,55 @@
 
     .blogContent {
         width: 65%;
+
+        article {
+            background-color: $solidWhite;
+            padding: 40px 40px 80px 40px;
+            border-bottom: 5px solid $duskBlue;
+
+            span {
+                display: block;
+                margin: 15px 0;
+            }
+        }
+
+        .commentOne {
+            background-color: $solidWhite;
+            padding: 40px;
+            margin-top: 40px;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: flex-start;
+
+
+            p {
+                margin: 0 0 0 15px;
+
+                span {
+                    display: block;
+                }
+            }
+        }
+
+        .commentTwo {
+            background-color: $solidWhite;
+            padding: 40px;
+            margin-top: 40px;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: flex-start;
+            border-bottom: 5px solid $duskBlue;
+            p {
+                margin: 0 0 0 15px;
+
+                span {
+                    display: block;
+                }
+            }
+
+        }
     }
 
 }
