@@ -1183,7 +1183,7 @@ footer p {
   }
   .navBar {
     position: static;
-    padding: 10px;
+    padding: 10px 0 50px;
   }
   .navBar ul {
     -webkit-box-orient: vertical;
@@ -1200,5 +1200,98 @@ footer p {
   }
   .navBar ul li h1 {
     font-size: 3.5rem;
+  }
+  .main header .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main header .wrapper .imgContainer {
+    width: 100%;
+    margin-top: 80px;
+  }
+  .main header .wrapper .imgContainer img {
+    max-height: 40vh;
+  }
+  .main header .wrapper .content {
+    width: 100%;
+    padding: 60px 0 0 0;
+  }
+  .main header .wrapper .content img {
+    padding-bottom: 70px;
+    padding-left: 320px;
+  }
+  .whosHarper .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .whosHarper .wrapper .blank {
+    width: 100%;
+    height: 0vh;
+  }
+  .whosHarper .wrapper .content {
+    width: 100%;
+    padding-left: 0;
+  }
+  .whosHarper .wrapper .content .contentContainer {
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .categoryQuad .items {
+    width: 100%;
+    margin-bottom: 70px;
+  }
+  .harpersTravels .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .harpersTravels .wrapper .imgContainer {
+    width: 100%;
+  }
+  .harpersTravels .wrapper .imgContainer img {
+    max-height: 100%;
+  }
+  .harpersTravels .wrapper .content {
+    width: 100%;
+    padding-left: 0;
+    padding-top: 60px;
+  }
+  .harpersTravels .wrapper .content .contentContainer {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .favouriteThings .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .favouriteThings .wrapper .imgContainer {
+    width: 100%;
+  }
+  .favouriteThings .wrapper .imgContainer img {
+    max-height: 100%;
+  }
+  .favouriteThings .wrapper .content {
+    width: 100%;
+    padding: 60px 0 0;
+  }
+  .favouriteThings .wrapper .content .contentContainer {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
   }
 }
