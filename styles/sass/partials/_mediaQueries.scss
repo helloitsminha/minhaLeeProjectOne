@@ -313,25 +313,34 @@
 @media (max-width: 500px) {
     // resize wrapper
     .wrapper {
-        max-width: 350px;
+        max-width: 320px;
         width: 90%;
         margin: 0 auto;
     }
 
-    // resize header text
+    // resize main header text
 
     .main header .wrapper .content {
         h2 {
-            font-size: 7.5rem;
-            line-height: 8.2rem;
+            font-size: 7rem;
+            line-height: 7.8rem;
         }
 
         img {
-            height: 150px;
-            padding-left: 240px;
-            padding-bottom: 60px;
+            height: 135px;
+            padding-left: 225px;
+            padding-bottom: 50px;
         }
 
+    }
+
+    // resize page header text
+    .blog,
+    .contact {
+        h2 {
+            font-size: 7rem;
+            line-height: 7.5rem;
+        }
     }
 
     // reorient category quad
