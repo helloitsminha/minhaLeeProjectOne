@@ -50,3 +50,15 @@ nav a {
         background-color: transparent;
     }
 }
+
+.recentPosts a {
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+        color: $lightBlueGrey;
+    }
+    &:focus {
+        color: $lightBlueGrey;
+    }
+}

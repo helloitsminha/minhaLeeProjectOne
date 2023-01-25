@@ -355,6 +355,18 @@ nav a:focus {
   background-color: transparent;
 }
 
+.recentPosts a {
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.recentPosts a:hover {
+  color: #b9dde7;
+}
+.recentPosts a:focus {
+  color: #b9dde7;
+}
+
 .navBar {
   position: sticky;
   top: 0;
@@ -690,9 +702,72 @@ footer p {
 }
 .blog header h2 {
   position: relative;
-  top: 35px;
+  bottom: 50px;
 }
 
 .blog main {
   background-color: #f6f6f6;
+  padding-top: 100px;
+}
+
+.blog main .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+.blog main .wrapper .sideBar {
+  width: 32%;
+}
+.blog main .wrapper .sideBar .aboutHarper {
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 45px;
+}
+.blog main .wrapper .sideBar .aboutHarper .contentContainer {
+  margin-top: 20px;
+  margin-bottom: -5px;
+}
+.blog main .wrapper .sideBar .aboutHarper .contentContainer p {
+  margin: 20px 0 0 0;
+}
+.blog main .wrapper .sideBar .recentPosts {
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 30px;
+  padding: 45px;
+}
+.blog main .wrapper .sideBar .recentPosts ul {
+  list-style-type: disc;
+  padding: 30px 0 0 0;
+  line-height: 3.2rem;
+  margin-left: 30px;
+}
+.blog main .wrapper .blogContent {
+  width: 65%;
 }
