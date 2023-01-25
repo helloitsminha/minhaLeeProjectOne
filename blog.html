@@ -98,13 +98,29 @@
                         <p>Wednesday October 10th, 2018 by Daisy <span>Donec viverra eleifend lacus, vitae ullamcorper metus. Sed Sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu.</span></p>
                     </div><!-- end of .content -->
                 </div><!-- end of .commentTwo -->
+
+                <!-- form -->
+                <div class="postComment">
+                    <form action="postComment" method="POST" name="commentForm">
+                        <div class="userInfo">
+                            <input type="text" name="name" placeholder="Name" id="name">
+                            <input type="text" name="email" placeholder="Email address" id="email">
+                        </div>
+                        <div class="comment">
+                            <textarea name="userComment" id="comment" cols="30" rows="10">Comment</textarea>
+                        </div>
+                        <div class="buttonContainer">
+                            <button type="submit">POST COMMENT</button>
+                        </div>
+                    </form>
+                </div><!-- end of .postComment -->
             </div><!-- end of .blogContent -->
-        </div>
-<!-- end of .wrapper -->
+
+        </div><!-- end of .wrapper -->
     </main>
 
 
-            <!-- post comment form -->
+
     
     <!-- footer -->
     <footer>

@@ -304,6 +304,42 @@ a {
   transition: 0.3s;
 }
 
+form ::-webkit-input-placeholder {
+  font-family: "Cabin", sans-serif;
+  font-size: 2rem;
+  color: #171717;
+  opacity: 1;
+}
+
+form ::-moz-placeholder {
+  font-family: "Cabin", sans-serif;
+  font-size: 2rem;
+  color: #171717;
+  opacity: 1;
+}
+
+form :-ms-input-placeholder {
+  font-family: "Cabin", sans-serif;
+  font-size: 2rem;
+  color: #171717;
+  opacity: 1;
+}
+
+form ::-ms-input-placeholder {
+  font-family: "Cabin", sans-serif;
+  font-size: 2rem;
+  color: #171717;
+  opacity: 1;
+}
+
+form ::placeholder,
+form textarea {
+  font-family: "Cabin", sans-serif;
+  font-size: 2rem;
+  color: #171717;
+  opacity: 1;
+}
+
 .wrapper {
   max-width: 1260px;
   width: 90%;
@@ -707,7 +743,8 @@ footer p {
 
 .blog main {
   background-color: #f6f6f6;
-  padding-top: 100px;
+  padding: 100px 0 80px;
+  margin-bottom: -20px;
 }
 
 .blog main .wrapper {
@@ -828,4 +865,49 @@ footer p {
 }
 .blog main .wrapper .blogContent .commentTwo p span {
   display: block;
+}
+.blog main .wrapper .blogContent .postComment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  margin: 40px 0;
+}
+.blog main .wrapper .blogContent .postComment .userInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+.blog main .wrapper .blogContent .postComment .userInfo input {
+  width: 49%;
+  border: none;
+  padding: 25px;
+}
+.blog main .wrapper .blogContent .postComment .userInfo input .name {
+  margin-right: 2px;
+}
+.blog main .wrapper .blogContent .postComment .userInfo input .email {
+  margin-left: 2px;
+}
+.blog main .wrapper .blogContent .postComment textarea {
+  width: 100%;
+  margin: 20px 0;
+  border: none;
+  resize: none;
+  padding: 25px;
+}
+.blog main .wrapper .blogContent .postComment button {
+  width: 100%;
 }

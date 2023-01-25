@@ -76,3 +76,13 @@ a {
     cursor: pointer;
     transition: 0.3s;
 }
+
+form {
+    ::placeholder,
+    textarea {
+        font-family: $bodyFont;
+        font-size: 2rem;
+        color: $black;
+        opacity: 1;
+    }
+}
