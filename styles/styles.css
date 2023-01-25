@@ -314,7 +314,7 @@ button, .button {
   color: #171717;
   background-color: #f38d8d;
   border: 2px solid #f38d8d;
-  padding: 18px 36px;
+  padding: 10px 30px;
   font-size: 2rem;
   font-weight: bold;
   line-height: 3.2rem;
@@ -537,7 +537,7 @@ header .content img {
 .harpersTravels .content {
   width: 50%;
   padding: 0 0 0 80px;
-  margin-bottom: -9.55px;
+  margin-bottom: -10px;
 }
 .harpersTravels .content .contentContainer {
   display: -webkit-box;
@@ -554,6 +554,7 @@ header .content img {
 
 .favouriteThings {
   background-color: transparent;
+  margin-bottom: -35px;
 }
 .favouriteThings .wrapper {
   display: -webkit-box;
@@ -602,4 +603,52 @@ header .content img {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+}
+
+.harpersJourney {
+  background-color: #f6f6f6;
+  padding: 155px 0 120px 0;
+}
+.harpersJourney .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.harpersJourney .imgContainer {
+  width: 25%;
+}
+.harpersJourney .imgContainer img {
+  -webkit-box-shadow: 15px 15px #227284;
+          box-shadow: 15px 15px #227284;
+}
+.harpersJourney .content {
+  width: 75%;
+  padding: 0 0 0 80px;
+}
+.harpersJourney .content .contentContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.harpersJourney .content .contentContainer p {
+  margin: 15px 0 30px 0;
 }
