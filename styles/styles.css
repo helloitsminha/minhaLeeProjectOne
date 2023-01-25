@@ -724,16 +724,15 @@ header .content img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.gallery ul img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 footer {
@@ -846,6 +845,10 @@ footer p {
       -ms-flex-align: center;
           align-items: center;
   padding: 40px;
+}
+.blog main .wrapper .sideBar .aboutHarper img {
+  max-width: 100%;
+  max-height: 100%;
 }
 .blog main .wrapper .sideBar .aboutHarper .contentContainer {
   margin-top: 20px;
@@ -1000,4 +1003,202 @@ footer p {
 }
 .contact main .wrapper .contactContent {
   width: 65%;
+}
+
+@media (max-width: 1334px) {
+  .gallery ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .gallery ul li {
+    padding: 20px;
+  }
+}
+@media (max-width: 1260px) {
+  .wrapper {
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .main header .content {
+    padding-left: 50px;
+  }
+  .main header .content h2 {
+    font-size: 12rem;
+  }
+  .main header .content img {
+    height: 220px;
+    padding-left: 335px;
+    padding-bottom: 80px;
+  }
+}
+@media (max-width: 1000px) {
+  .wrapper {
+    max-width: 800px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .main header .content {
+    padding-left: 30px;
+  }
+  .main header .content h2 {
+    font-size: 10.5rem;
+  }
+  .main header .content img {
+    height: 200px;
+    padding-left: 300px;
+    padding-bottom: 80px;
+  }
+  .harpersJourney .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .harpersJourney .wrapper .imgContainer {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .harpersJourney .wrapper .imgContainer img {
+    max-height: 100%;
+  }
+  .harpersJourney .wrapper .content {
+    width: 100%;
+    padding: 60px 0 0;
+  }
+  .harpersJourney .wrapper .content .contentContainer {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .blog main .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    width: 100%;
+  }
+  .blog main .wrapper .sideBar {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .blog main .wrapper .sideBar .aboutHarper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .blog main .wrapper .sideBar .aboutHarper .contentContainer {
+    margin: 30px 0 30px 30px;
+  }
+  .blog main .wrapper .sideBar .recentPosts {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .blog main .wrapper .sideBar .recentPosts ul {
+    text-align: left;
+    margin: 0;
+  }
+  .blog main .wrapper .blogContent {
+    width: 100%;
+  }
+  .blog main .wrapper .blogContent article {
+    border-bottom: 2px solid #227284;
+  }
+  .blog main .wrapper .blogContent .commentOne {
+    margin-top: 20px;
+  }
+  .blog main .wrapper .blogContent .commentTwo {
+    margin: 20px 0;
+    border-bottom: 2px solid #227284;
+  }
+  .contact main .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    width: 100%;
+  }
+  .contact main .wrapper .sideBar {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .contact main .wrapper .sideBar section {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contact main .wrapper .sideBar section .icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contact main .wrapper .sideBar section .content {
+    text-align: center;
+  }
+  .contact main .wrapper .contactContent {
+    width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  .wrapper {
+    max-width: 500px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .navBar {
+    position: static;
+    padding: 10px;
+  }
+  .navBar ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .navBar ul li {
+    padding: 5px 0;
+    font-size: 2rem;
+  }
+  .navBar ul li h1 {
+    font-size: 3.5rem;
+  }
 }
