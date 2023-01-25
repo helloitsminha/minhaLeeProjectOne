@@ -746,6 +746,58 @@ footer p {
   padding: 5px 0;
 }
 
+.contactForm,
+.postComment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+.contactForm .userInfo,
+.postComment .userInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+.contactForm .userInfo input,
+.postComment .userInfo input {
+  width: 49%;
+  border: none;
+  padding: 25px;
+}
+.contactForm .userInfo input .name,
+.postComment .userInfo input .name {
+  margin-right: 2px;
+}
+.contactForm .userInfo input .email,
+.postComment .userInfo input .email {
+  margin-left: 2px;
+}
+.contactForm textarea,
+.postComment textarea {
+  width: 100%;
+  margin: 20px 0;
+  border: none;
+  resize: none;
+  padding: 25px;
+}
+.contactForm button,
+.postComment button {
+  width: 100%;
+}
+
 .blog header {
   background-image: url(../assets/blog-image-1.jpg);
   background-size: cover;
@@ -859,7 +911,7 @@ footer p {
 .blog main .wrapper .blogContent .commentTwo {
   background-color: #ffffff;
   padding: 40px;
-  margin-top: 40px;
+  margin: 40px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -880,51 +932,6 @@ footer p {
 }
 .blog main .wrapper .blogContent .commentTwo p span {
   display: block;
-}
-.blog main .wrapper .blogContent .postComment {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 100%;
-  margin: 40px 0;
-}
-.blog main .wrapper .blogContent .postComment .userInfo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 100%;
-}
-.blog main .wrapper .blogContent .postComment .userInfo input {
-  width: 49%;
-  border: none;
-  padding: 25px;
-}
-.blog main .wrapper .blogContent .postComment .userInfo input .name {
-  margin-right: 2px;
-}
-.blog main .wrapper .blogContent .postComment .userInfo input .email {
-  margin-left: 2px;
-}
-.blog main .wrapper .blogContent .postComment textarea {
-  width: 100%;
-  margin: 20px 0;
-  border: none;
-  resize: none;
-  padding: 25px;
-}
-.blog main .wrapper .blogContent .postComment button {
-  width: 100%;
 }
 
 .contact header {
@@ -991,52 +998,6 @@ footer p {
 .contact main .wrapper .sideBar .content p span {
   display: block;
 }
-
-.contactContent {
+.contact main .wrapper .contactContent {
   width: 65%;
-}
-.contactContent .contactForm {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 100%;
-  margin: 40px 0;
-}
-.contactContent .contactForm .userInfo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 100%;
-}
-.contactContent .contactForm .userInfo input {
-  width: 49%;
-  border: none;
-  padding: 25px;
-}
-.contactContent .contactForm .userInfo input .name {
-  margin-right: 2px;
-}
-.contactContent .contactForm .userInfo input .email {
-  margin-left: 2px;
-}
-.contactContent .contactForm textarea {
-  width: 100%;
-  margin: 20px 0;
-  border: none;
-  resize: none;
-  padding: 25px;
-}
-.contactContent .contactForm button {
-  width: 100%;
 }

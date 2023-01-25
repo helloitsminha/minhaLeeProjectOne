@@ -48,49 +48,7 @@
             }
             
         }
-    }
-
     .contactContent {
         width: 65%;
-
-        .contactForm {
-                display: flex;
-                flex-direction: column;
-                width: 100%;
-                margin: 40px 0;
-        
-                .userInfo {
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: space-between;
-                    width: 100%;
-        
-                    input {
-                        width: 49%;
-                        border: none;
-                        padding: 25px;
-        
-                        .name {
-                            margin-right: 2px;
-                        }
-        
-                        .email {
-                            margin-left: 2px;
-                        }
-                    }
-                }
-        
-                textarea {
-                    width: 100%;
-                    margin: 20px 0;
-                    border: none;
-                    resize: none;
-                    padding: 25px;
-                }
-        
-                button {
-                    width: 100%;
-                }
-
-        }
-    }      
+    }  
+} 

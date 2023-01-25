@@ -94,7 +94,7 @@
         .commentTwo {
             background-color: $solidWhite;
             padding: 40px;
-            margin-top: 40px;
+            margin: 40px 0;
             display: flex;
             flex-direction: row;
             align-items: flex-start;
@@ -109,46 +109,5 @@
             }
 
         }
-
-        .postComment {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            margin: 40px 0;
-
-            .userInfo {
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-                width: 100%;
-
-                input {
-                    width: 49%;
-                    border: none;
-                    padding: 25px;
-
-                    .name {
-                        margin-right: 2px;
-                    }
-                    .email {
-                        margin-left: 2px;
-                    }
-                }
-            }
-
-            textarea {
-                width: 100%;
-                margin: 20px 0;
-                border: none;
-                resize: none;
-                padding: 25px;
-            }
-
-            button {
-                width: 100%;
-            }
-
-        }
     }
-
 }
