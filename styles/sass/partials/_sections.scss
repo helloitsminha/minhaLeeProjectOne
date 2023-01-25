@@ -2,7 +2,7 @@
 
 .whosHarper {
     background-color: $whiteShade;
-    padding: 170px 0;
+    padding: 150px 0;
 
     .wrapper {
         display: flex;
@@ -31,3 +31,47 @@
     }
 }
 
+// banner img styles
+
+.bannerImg {
+    margin-bottom: -5px;
+    img{
+    width: 100vw;
+    }
+}
+
+// content quad styles
+
+.categories {
+    background-color: $whiteShade;
+    padding: 120px 0 100px 0;
+}
+
+.categoryQuad {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+    .items {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-bottom: 40px;
+        padding: 0 15px 0 15px;
+
+        .icon {
+            width: 15%;
+        }
+
+        .content {
+            width: 85%;
+            flex-direction: column;
+            padding-top: 15px;
+
+            p {
+                padding-top: 10px;
+            }
+        }
+    }
+}
