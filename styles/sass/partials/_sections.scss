@@ -8,25 +8,20 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+        justify-content: flex-end;
     }
 
-    .blank {
-        width: 40%;
-    }
 
-    .content {
+    .contentContainer {
         width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
         padding-left: 90px;
 
-        .contentContainer {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            justify-content: center;
-
-            p{
-                margin: 36px 0;
-            }
+        p{
+            margin: 36px 0;
         }
     }
 }
