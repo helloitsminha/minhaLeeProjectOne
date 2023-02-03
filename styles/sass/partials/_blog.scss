@@ -70,11 +70,6 @@
             background-color: $solidWhite;
             padding: 40px 40px 80px 40px;
             border-bottom: 5px solid $duskBlue;
-
-            span {
-                display: block;
-                margin: 15px 0;
-            }
         }
 
         .commentOne {
@@ -86,13 +81,8 @@
             align-items: flex-start;
             justify-content: flex-start;
 
-
             p {
                 margin: 0 0 0 15px;
-
-                span {
-                    display: block;
-                }
             }
         }
 
@@ -105,14 +95,10 @@
             align-items: flex-start;
             justify-content: flex-start;
             border-bottom: 5px solid $duskBlue;
+
             p {
                 margin: 0 0 0 15px;
-
-                span {
-                    display: block;
-                }
             }
-
         }
     }
 }

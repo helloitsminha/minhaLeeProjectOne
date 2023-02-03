@@ -875,10 +875,6 @@ footer p {
   padding: 40px 40px 80px 40px;
   border-bottom: 5px solid #227284;
 }
-.blog main .wrapper .blogContent article span {
-  display: block;
-  margin: 15px 0;
-}
 .blog main .wrapper .blogContent .commentOne {
   background-color: #ffffff;
   padding: 40px;
@@ -899,9 +895,6 @@ footer p {
 }
 .blog main .wrapper .blogContent .commentOne p {
   margin: 0 0 0 15px;
-}
-.blog main .wrapper .blogContent .commentOne p span {
-  display: block;
 }
 .blog main .wrapper .blogContent .commentTwo {
   background-color: #ffffff;
@@ -924,9 +917,6 @@ footer p {
 }
 .blog main .wrapper .blogContent .commentTwo p {
   margin: 0 0 0 15px;
-}
-.blog main .wrapper .blogContent .commentTwo p span {
-  display: block;
 }
 
 .contact header {
