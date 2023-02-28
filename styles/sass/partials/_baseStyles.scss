@@ -45,7 +45,8 @@ button, .button {
         margin-right: auto;
 
     }
-    &:hover {
+    &:hover,
+    .animated:hover {
         background-color: $solidWhite;
         border: 2px solid $solidWhite;
 
@@ -54,7 +55,8 @@ button, .button {
         }
     }
 
-    &:focus {
+    &:focus,
+    .animated:focus {
         background-color: $solidWhite;
             border: 2px solid $solidWhite;
         

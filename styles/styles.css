@@ -386,18 +386,22 @@ button:focus, .button:focus {
   margin-left: auto;
   margin-right: auto;
 }
-.hamburgerIcon:hover {
+.hamburgerIcon:hover,
+.hamburgerIcon .animated:hover {
   background-color: #ffffff;
   border: 2px solid #ffffff;
 }
-.hamburgerIcon:hover .hamburger {
+.hamburgerIcon:hover .hamburger,
+.hamburgerIcon .animated:hover .hamburger {
   background-color: #b9dde7;
 }
-.hamburgerIcon:focus {
+.hamburgerIcon:focus,
+.hamburgerIcon .animated:focus {
   background-color: #ffffff;
   border: 2px solid #ffffff;
 }
-.hamburgerIcon:focus .hamburger {
+.hamburgerIcon:focus .hamburger,
+.hamburgerIcon .animated:focus .hamburger {
   background-color: #b9dde7;
 }
 
@@ -1234,6 +1238,17 @@ footer p {
     right: 0;
     margin-left: auto;
     margin-right: auto;
+  }
+  .navBar .hamburgerIcon .animated .top {
+    -webkit-transform: translateY(10px) rotateZ(45deg);
+            transform: translateY(10px) rotateZ(45deg);
+  }
+  .navBar .hamburgerIcon .animated .bottom {
+    -webkit-transform: translateY(-10px) rotateZ(-45deg);
+            transform: translateY(-10px) rotateZ(-45deg);
+  }
+  .navBar .hamburgerIcon .animated .middle {
+    width: 0;
   }
   .navBar ul {
     margin-top: -100px;
