@@ -187,8 +187,18 @@
     
     // resize & reorient nav 
     .navBar {
-        position: static;
-        padding: 30px 0 50px;
+        position: sticky;
+        // padding: 30px 0 50px;
+
+        .hamburgerIcon {
+            top: 0;
+            bottom: -7px;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
 
         ul {
             margin-top: -100px;
@@ -223,6 +233,7 @@
         .content {
             width: 100%;
             padding: 60px 0 0 0;
+            margin-top: 0;
 
             h2 {
                 line-height: 12rem;
