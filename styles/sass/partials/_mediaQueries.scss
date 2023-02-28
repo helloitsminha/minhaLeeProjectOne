@@ -188,23 +188,19 @@
     // resize & reorient nav 
     .navBar {
         position: static;
-        padding: 10px 0 50px;
+        padding: 30px 0 50px;
 
+        .navItem {
+            margin-top: -2000px;
+        }
 
         ul {
-            flex-direction: column;
             align-items: center;
-
-            li {
-                padding: 8px 0;
-                font-size: 2rem;
-
-                h1 {
-                    font-size: 3.5rem;
-                }
+            h1 {
+                font-size: 3.4rem;
+            }
             }
         }
-    }
 
     .blog,
     .contact {
@@ -309,8 +305,8 @@
             }
         }
     }
-
 }
+
 
 // 500px and smaller
 
