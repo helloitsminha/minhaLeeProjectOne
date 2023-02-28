@@ -26,6 +26,38 @@ button, .button {
     }
 }
 
+.hamburgerIcon {
+    background-color: $lightBlueGrey; 
+    border: 2px solid $lightBlueGrey;
+    padding: 10px;
+
+    .hamburger {
+        display: block;
+        width: 35px;
+        height: 3px;
+        background-color: $solidWhite;
+        margin: 5px;
+
+    }
+    &:hover {
+        background-color: $solidWhite;
+        border: 2px solid $solidWhite;
+
+        .hamburger {
+            background-color: $lightBlueGrey;
+        }
+    }
+
+    &:focus {
+        background-color: $solidWhite;
+            border: 2px solid $solidWhite;
+        
+            .hamburger {
+                background-color: $lightBlueGrey;
+            }
+        }
+}
+
 nav a {
     &:hover {
         color: $solidWhite;
